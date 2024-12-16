@@ -1,0 +1,129 @@
+.menu {
+    padding: 20px;
+  }
+  
+  .drink-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .menu-header {
+    position: relative;
+    bottom: 250px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .menu-header h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .menu-header p {
+    font-size: 1.2rem;
+  }
+  
+  .menu-tabs {
+    margin-top: 20px;
+  }
+  
+  .menu-tabs button {
+    margin: 0 10px;
+    font-size: 1rem;
+  }
+  
+  .brunch-cocktails {
+    margin-top: 0px;
+    text-align: center;
+  }
+  
+  .brunch-cocktails h2 {
+    font-size: 2.5rem;
+    color: skyblue;
+  }
+  
+  .menu-item {
+    margin: 20px 10px;
+    text-align: left;
+  }
+  
+  .menu-item h3 {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-item .price {
+    font-size: 1.2rem;
+    color: gray;
+  }
+  
+  .menu-item p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .menu-header {
+      bottom: 200px;
+      padding: 15px;
+    }
+  
+    .menu-header h1 {
+      font-size: 2.5rem;
+    }
+  
+    .menu-header p {
+      font-size: 1rem;
+    }
+  
+    .menu-tabs button {
+      font-size: 0.9rem;
+    }
+  
+    .brunch-cocktails h2 {
+      font-size: 2rem;
+    }
+  
+    .menu-item h3 {
+      font-size: 1.2rem;
+    }
+  
+    .menu-item p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .menu-header {
+      bottom: 150px;
+    }
+  
+    .menu-header h1 {
+      font-size: 2rem;
+    }
+  
+    .menu-tabs button {
+      margin: 5px;
+      font-size: 0.8rem;
+    }
+  
+    .brunch-cocktails h2 {
+      font-size: 1.8rem;
+    }
+  
+    .menu-item h3 {
+      font-size: 1rem;
+    }
+  
+    .menu-item p {
+      font-size: 0.8rem;
+    }
+  }
+  

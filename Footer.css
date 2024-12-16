@@ -1,0 +1,47 @@
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 10px;
+  }
+  
+  .foot {
+    margin-bottom: 20px;
+  }
+  
+  .foot h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .foot p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .foot {
+      text-align: center;
+    }
+  
+    .foot h3 {
+      font-size: 1.3rem;
+    }
+  
+    .foot p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .foot h3 {
+      font-size: 1.2rem;
+    }
+  
+    .foot p {
+      font-size: 0.8rem;
+    }
+  
+    .footer {
+      padding: 15px 5px;
+    }
+  }
+  
